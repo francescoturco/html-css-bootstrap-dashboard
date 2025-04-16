@@ -1,7 +1,11 @@
 /*DEBUG*/
 
-.debug.row >*{
-    border: 1px solid;
+.debug .row > * {
+    border: 1px solid red;
+}
+
+.debug .container {
+    border: 2px solid blue;
 }
 
 
@@ -9,7 +13,8 @@
 
 
 .container {
-
+    max-width: 70%;    
+    margin-top: 50px;
 }
 
 
@@ -20,11 +25,23 @@
 /*HEADER*/
 
 .img-navbar {
-    max-width: 50px;
+    max-width: 60px;
 
 }
 
 
+
+
+/*MAIN*/
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-color {
+    color: white;
+}
 
 
 
