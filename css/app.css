@@ -32,6 +32,7 @@
 
 
 
+
 /*MAIN*/
 
 .title {
@@ -39,7 +40,7 @@
     justify-content: space-between;
 }
 
-.btn-color {
+.badge-color {
     color: white;
 }
 
