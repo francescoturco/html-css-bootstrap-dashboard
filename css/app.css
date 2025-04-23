@@ -12,10 +12,7 @@
 
 
 
-.container {
-    max-width: 70%;    
-    margin-top: 50px;
-}
+
 
 
 
@@ -26,6 +23,7 @@
 
 .img-navbar {
     max-width: 60px;
+    display: flex;
 
 }
  
@@ -36,15 +34,8 @@
 
 /*MAIN*/
 
-.title {
-    display: flex;
-    justify-content: space-between;
-}
 
-.text-bg-warning {
-    
-    color: white;
-}
+
 
 
 
