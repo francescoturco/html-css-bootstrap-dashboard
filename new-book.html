@@ -29,6 +29,53 @@
                 </nav>
             </div>
         </header>
+        <main class="container">
+            <section class="py-5">
+                <h1>Nuovo Libro</h1>
+                <form class="row g-3">
+                    <div class="col-md-6 py-3">
+                      <label for="NomeAutore" class="form-label strong">Nome Autore</label>
+                      <input type="text" class="form-control" name="NomeAutore" id="NomeAutore" placeholder="Inserisci il nome dell'autore">
+                    </div>
+                    <div class="col-md-6 py-3">
+                      <label for="inputPassword4" class="form-label">Cognome Autore</label>
+                      <input type="text" class="form-control" id="inputPassword4" placeholder="Inserisci il cognome dell'autore">
+                    </div>
+                    <div class="col-12 ">
+                      <label for="inputAddress" class="form-label">Titolo</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Inserisci titolo del libro">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="Genere" class="form-label">Genere</label>
+                        <select id="inputState" class="form-select">
+                          <option selected>Scegli il genere</option>
+                          <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputCity" class="form-label">Anno di Pubblicazione</label>
+                      <input type="text" class="form-control" id="inputCity" placeholder="Inerisci l'anno">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputZip" class="form-label">IBSN#</label>
+                      <input type="text" class="form-control" id="inputZip" placeholder="Inserisci il codice IBSN#">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Disponibile anche in digitale
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
+                    </div>
+                  </form>
+                
+            </section>  
+        </main>
+        
         
 
         
